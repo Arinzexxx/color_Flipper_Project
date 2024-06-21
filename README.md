@@ -1,0 +1,3 @@
+This is a personal Project made with Html - Css - Js .
+it function is to generate random colors in Hex code and in simple mode
+A simple and sweet Project ....
