@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | Digital Clock</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="flex justify-content-sb align-items-c" style="background-color: #bdbdc7;">
+                <section><a href="/">JS Color Flipper</a></section>
+                <section>
+                    <ul class="desktop-navigation flex res-d-none">
+                        <li><a href="sipmle.html">Sipmle View</a></li>
+                        <li><a href="index.html">Hex View</a></li>
+                    </ul>
+                    <section class="bars res-d-flex flex-direction-c justify-content-sb d-none">
+                        <section class="bar transistion"></section>
+                        <section class="bar"></section>
+                        <section class="bar transistion"></section>
+                        <ul class="mobile-navigation transistion text-align-c">
+                            <li><a href="sipmle.html">Sipmle View</a></li>
+                            <li><a href="index.html">Hex View</a></li>
+                        </ul>
+                    </section>
+                    
+                </section>
+            </nav>
+        </header>
+        <main class="center in">
+            <div class="app-wrapper">
+                <section>Background Color : <span class="current-color">#FFFFFF</span></section>
+                <section class="center" id="hex"><button>Change Color</button></section>
+            </div>
+        </main>
+        <footer class="center">
+            <p class="copyright-section">&copy;2024 Arinze color fliper</p>
+        </footer>
+    </div>
+    <script src="hex.js"></script>
+</body>
+</html>
